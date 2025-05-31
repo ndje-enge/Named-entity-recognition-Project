@@ -1,6 +1,6 @@
 # Named Entity Recognition (NER) with spaCy and CamemBERT
 
-This work is part of a school project in collaboration with the CNAM (Conservatoire national des arts et métiers). The goal was to explore NER in historical texts allowing fast interprtation by historians. 
+This work is part of a school project in collaboration with the CNAM (Conservatoire national des arts et métiers). The goal was to explore NER in historical texts allowing fast interpretation by historians. 
 
 This work demonstrates and compares Named Entity Recognition (NER) in French and English using spaCy and CamemBERT models. It includes Wikipedia text extraction, entity detection, and entity comparison between models.
 
