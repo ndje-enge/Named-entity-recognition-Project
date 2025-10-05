@@ -59,16 +59,6 @@ python -m spacy download fr_core_news_lg
    - Run spaCy and CamemBERT NER.
    - Compare and merge entity results.
 
-## Example: Extracting PERSON Entities with spaCy
-
-```python
-import spacy
-nlp = spacy.load("en_core_web_sm")
-doc = nlp(text_without_brackets)
-all_person = [ent.text for ent in doc.ents if ent.label_ == 'PERSON']
-print("Person Names:", all_person)
-print("Count:", len(all_person))
-```
 
 ## Notes
 
